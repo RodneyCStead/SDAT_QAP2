@@ -1,5 +1,4 @@
-
-package com.keyin.domain.tournamentlocation;
+package com.keyin.domain.tournamentLocation;
 
 import jakarta.persistence.*;
 

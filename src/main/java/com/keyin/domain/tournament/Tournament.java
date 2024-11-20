@@ -17,7 +17,7 @@ public class Tournament {
 
     @ManyToOne
     @JoinColumn(name = "location_id", referencedColumnName = "id")
-    private com.keyin.domain.tournamentlocation.TournamentLocation location;
+    private com.keyin.domain.tournamentLocation.TournamentLocation  location;
 
     @ManyToMany
     @JoinTable(
@@ -67,7 +67,7 @@ public class Tournament {
         this.cashPrize = cashPrize;
     }
 
-    public com.keyin.domain.tournamentlocation.TournamentLocation getLocation() {
+    public com.keyin.domain.tournamentLocation.TournamentLocation getLocation() {
         return location;
     }
 }
