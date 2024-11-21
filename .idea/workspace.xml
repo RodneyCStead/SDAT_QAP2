@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45846e9c-5564-460a-9105-d3a16f7b8694" name="Changes" comment="Entities created">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    <list default="true" id="45846e9c-5564-460a-9105-d3a16f7b8694" name="Changes" comment="docker support added and tested succesfully">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/RestServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/RestServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/Tournament.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournamentLocation/TournamentLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournamentLocation/TournamentLocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +76,7 @@
     &quot;git-widget-placeholder&quot;: &quot;docker-connect&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/School/Semester 4/SDAT/surgurySchedulerRepos/SurgeryScheduler-Server&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/School/SDAT_QAP2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -116,6 +110,8 @@
       <workItem from="1732127069523" duration="1765000" />
       <workItem from="1732128945913" duration="2518000" />
       <workItem from="1732132335326" duration="200000" />
+      <workItem from="1732132583638" duration="83000" />
+      <workItem from="1732212671284" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <option name="closed" value="true" />
@@ -141,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732129171638</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="docker support added and tested succesfully">
+      <option name="closed" value="true" />
+      <created>1732132625478</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732132625478</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +155,7 @@
     <MESSAGE value="project init" />
     <MESSAGE value="changed name" />
     <MESSAGE value="Entities created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Entities created" />
+    <MESSAGE value="docker support added and tested succesfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker support added and tested succesfully" />
   </component>
 </project>
