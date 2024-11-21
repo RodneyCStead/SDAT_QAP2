@@ -1,10 +1,7 @@
 package com.keyin.domain.member;
 
-import com.keyin.domain.memberaddress.MemberAddress;
-import com.keyin.domain.tournament.Tournament;
 import jakarta.persistence.*;
 import java.time.LocalDate;
-import java.util.Set;
 
 @Entity
 public class Member {
@@ -19,11 +16,9 @@ public class Member {
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "address_id", referencedColumnName = "id")
-    private MemberAddress address;
+    private com.keyin.domain.memberaddress.MemberAddress address;
 
-    @ManyToMany(mappedBy = "members")
-    private Set<Tournament> tournaments;
-
+    // Getters and setters
     public Long getId() {
         return id;
     }
@@ -64,16 +59,19 @@ public class Member {
         this.startDate = startDate;
     }
 
-    public int getDuration() {
+    public int getMembershipDuration() {
         return membershipDuration;
     }
 
-    public void setDuration(int duration) {
-        this.membershipDuration = duration;
+    public void setMembershipDuration(int membershipDuration) {
+        this.membershipDuration = membershipDuration;
     }
 
-    public MemberAddress getAddress() {
+    public com.keyin.domain.memberaddress.MemberAddress getAddress() {
         return address;
     }
 
+    public void setAddress(com.keyin.domain.memberaddress.MemberAddress address) {
+        this.address = address;
+    }
 }

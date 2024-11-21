@@ -1,9 +1,7 @@
 package com.keyin.domain.tournament;
 
-import com.keyin.domain.member.Member;
 import jakarta.persistence.*;
 import java.time.LocalDate;
-import java.util.Set;
 
 @Entity
 public class Tournament {
@@ -17,16 +15,12 @@ public class Tournament {
 
     @ManyToOne
     @JoinColumn(name = "location_id", referencedColumnName = "id")
-    private com.keyin.domain.tournamentLocation.TournamentLocation  location;
+    private com.keyin.domain.tournamentLocation.TournamentLocation location;
 
-    @ManyToMany
-    @JoinTable(
-            name = "tournament_member",
-            joinColumns = @JoinColumn(name = "tournament_id"),
-            inverseJoinColumns = @JoinColumn(name = "member_id")
-    )
-    private Set<Member> members;
+    @Column(name = "registered_members")
+    private String registeredMembers;
 
+    // Getters and setters
     public Long getId() {
         return id;
     }
@@ -69,5 +63,17 @@ public class Tournament {
 
     public com.keyin.domain.tournamentLocation.TournamentLocation getLocation() {
         return location;
+    }
+
+    public void setLocation(com.keyin.domain.tournamentLocation.TournamentLocation location) {
+        this.location = location;
+    }
+
+    public String getRegisteredMembers() {
+        return registeredMembers;
+    }
+
+    public void setRegisteredMembers(String registeredMembers) {
+        this.registeredMembers = registeredMembers;
     }
 }
