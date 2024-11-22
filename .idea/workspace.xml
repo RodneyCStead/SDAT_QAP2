@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45846e9c-5564-460a-9105-d3a16f7b8694" name="Changes" comment="docker support added and tested succesfully">
+    <list default="true" id="45846e9c-5564-460a-9105-d3a16f7b8694" name="Changes" comment="small change to tournament and member">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/memberaddress/MemberAddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/memberaddress/MemberAddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/memberaddress/MemberAddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/TournamentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournamentLocation/TournamentLocationRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/domain/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/Tournament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/domain/memberaddress/MemberAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/memberaddress/MemberAddress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +22,31 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "RodneyCStead"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/RodneyCStead/SDAT_QAP2.git",
+    "accountId": "185a2d91-7d0a-43bd-9455-83ce89ff7e2f"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -35,13 +58,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
+    "Notification.DoNotAsk-Database detector": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.RestServiceApplication.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "MemberAddress",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/School/Semester 4/surgurySchedulerRepos/SurgeryScheculer-Client",
+    "last_opened_file_path": "C:/School/Semester 4/surgurySchedulerRepos/SurgeryScheduler-Server",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,10 +97,24 @@
       <updated>1731617009745</updated>
       <workItem from="1731617010809" duration="185000" />
       <workItem from="1731791487504" duration="1174000" />
+      <workItem from="1732245026037" duration="2470000" />
     </task>
+    <task id="LOCAL-00001" summary="small change to tournament and member">
+      <option name="closed" value="true" />
+      <created>1732222335500</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732222335500</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="small change to tournament and member" />
+    <option name="LAST_COMMIT_MESSAGE" value="small change to tournament and member" />
   </component>
 </project>
