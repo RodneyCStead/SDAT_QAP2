@@ -68,18 +68,6 @@ public class Member {
         this.membershipDuration = membershipDuration;
     }
 
-//    public int getRemainingMonths() {
-//        LocalDate endDate = startDate.plusMonths(membershipDuration);
-//        LocalDate currentDate = LocalDate.now();
-//        if (currentDate.isAfter(endDate)) {
-//            return 0;
-//        }
-//        return Period.between(currentDate, endDate).getMonths();
-//    }
-//
-//    public String getRemainingMembershipMessage() {
-//        return name + " has " + getRemainingMonths() + " months left.";
-//    }
 
     public com.keyin.domain.memberaddress.MemberAddress getAddress() {
         return address;
