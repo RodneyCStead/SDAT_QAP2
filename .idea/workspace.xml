@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45846e9c-5564-460a-9105-d3a16f7b8694" name="Changes" comment="Added the method to create the locations for the tournaments">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/TournamentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/TournamentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournamentLocation/TournamentLocationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournamentLocation/TournamentLocationService.java" afterDir="false" />
+    <list default="true" id="45846e9c-5564-460a-9105-d3a16f7b8694" name="Changes" comment="Added Tournament method to create tournaments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/domain/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/domain/member/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/member/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/domain/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/member/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/domain/member/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/member/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/Tournament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/TournamentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/TournamentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/TournamentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/TournamentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/TournamentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/TournamentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +111,7 @@
       <workItem from="1732292902002" duration="2177000" />
       <workItem from="1732297701460" duration="75000" />
       <workItem from="1732299803806" duration="41000" />
-      <workItem from="1732299891897" duration="7114000" />
+      <workItem from="1732299891897" duration="8731000" />
     </task>
     <task id="LOCAL-00001" summary="small change to tournament and member">
       <option name="closed" value="true" />
@@ -136,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732247727955</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Tournament method to create tournaments">
+      <option name="closed" value="true" />
+      <created>1732308162670</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732308162670</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +146,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="small change to tournament and member" />
     <MESSAGE value="added memberAddress service and controller, tests with postman to create addresses succesful" />
-    <option name="LAST_COMMIT_MESSAGE" value="added memberAddress service and controller, tests with postman to create addresses succesful" />
+    <MESSAGE value="Added the method to create the locations for the tournaments" />
+    <MESSAGE value="Added Tournament method to create tournaments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Tournament method to create tournaments" />
   </component>
 </project>
