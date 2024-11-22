@@ -1,6 +1,7 @@
 package com.keyin.domain.tournament;
 
 import com.keyin.domain.member.Member;
+import com.keyin.domain.member.MemberRepository;
 import com.keyin.domain.member.MemberService;
 import com.keyin.domain.tournamentLocation.TournamentLocationService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,9 @@ public class TournamentService {
 
     @Autowired
     private TournamentLocationService tournamentLocationService;
+
+    @Autowired
+    private MemberRepository memberRepository;
 
     @Autowired
     private MemberService memberService;
@@ -52,5 +56,17 @@ public class TournamentService {
             memberNames.add(member.getName());
         }
         return memberNames;
+    }
+
+    public Tournament addMemberToTournament(Long tournamentId, Long memberId) {
+        Tournament tournament = tournamentRepository.findById(tournamentId).orElse(null);
+        if (tournament != null) {
+            Member member = memberRepository.findById(memberId).orElse(null);
+            if (member != null) {
+                tournament.getRegisteredMembers().add(memberId);
+                return tournamentRepository.save(tournament);
+            }
+        }
+        return null;
     }
 }

@@ -1,0 +1,27 @@
+[
+  {
+    "courseName": "St. George's Golf and Country Club",
+    "province": "Ontario",
+    "city": "Toronto"
+  },
+  {
+    "courseName": "Cabot Cliffs",
+    "province": "Nova Scotia",
+    "city": "Inverness"
+  },
+  {
+    "courseName": "Banff Springs Golf Club",
+    "province": "Alberta",
+    "city": "Banff"
+  },
+  {
+    "courseName": "Royal Montreal Golf Club",
+    "province": "Quebec",
+    "city": "Montreal"
+  },
+  {
+    "courseName": "Capilano Golf and Country Club",
+    "province": "British Columbia",
+    "city": "West Vancouver"
+  }
+]

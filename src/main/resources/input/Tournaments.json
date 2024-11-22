@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Spring Championship",
+    "startDate": "2024-06-01",
+    "endDate": "2024-06-05",
+    "entryFee": 100.0,
+    "cashPrize": 5000.0,
+    "location": {
+      "id": 1
+    },
+    "registeredMembers": [1, 2, 3, 4, 5, 6, 7, 8]
+  },
+  {
+    "name": "Summer Open",
+    "startDate": "2024-06-15",
+    "endDate": "2024-06-20",
+    "entryFee": 150.0,
+    "cashPrize": 7000.0,
+    "location": {
+      "id": 2
+    },
+    "registeredMembers": [9, 10, 11, 12, 13, 14, 15, 16]
+  },
+  {
+    "name": "Autumn Classic",
+    "startDate": "2024-09-10",
+    "endDate": "2024-09-15",
+    "entryFee": 120.0,
+    "cashPrize": 6000.0,
+    "location": {
+      "id": 3
+    },
+    "registeredMembers": [17, 18, 19, 20, 1, 2, 3, 4]
+  },
+  {
+    "name": "Winter Invitational",
+    "startDate": "2024-12-05",
+    "endDate": "2024-12-10",
+    "entryFee": 200.0,
+    "cashPrize": 8000.0,
+    "location": {
+      "id": 4
+    },
+    "registeredMembers": [5, 6, 7, 8, 9, 10, 11, 12]
+  },
+  {
+    "name": "New Year Bash",
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-05",
+    "entryFee": 180.0,
+    "cashPrize": 7500.0,
+    "location": {
+      "id": 5
+    },
+    "registeredMembers": [13, 14, 15, 16, 17, 18, 19, 20]
+  }
+]

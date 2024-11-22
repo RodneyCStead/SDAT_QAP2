@@ -1,0 +1,142 @@
+[
+  {
+    "street": "Main Street",
+    "houseNumber": "1",
+    "city": "Toronto",
+    "province": "Ontario",
+    "postalCode": "M1A 1A1"
+  },
+  {
+    "street": "Elm Street",
+    "houseNumber": "2",
+    "city": "Montreal",
+    "province": "Quebec",
+    "postalCode": "H1A 1A1"
+  },
+  {
+    "street": "Maple Avenue",
+    "houseNumber": "3",
+    "city": "Vancouver",
+    "province": "British Columbia",
+    "postalCode": "V1A 1A1"
+  },
+  {
+    "street": "Pine Avenue",
+    "houseNumber": "4",
+    "city": "Calgary",
+    "province": "Alberta",
+    "postalCode": "T1A 1A1"
+  },
+  {
+    "street": "Oak Avenue",
+    "houseNumber": "5",
+    "city": "Edmonton",
+    "province": "Alberta",
+    "postalCode": "T2A 1A1"
+  },
+  {
+    "street": "Birch Avenue",
+    "houseNumber": "6",
+    "city": "Winnipeg",
+    "province": "Manitoba",
+    "postalCode": "R1A 1A1"
+  },
+  {
+    "street": "Cedar Avenue",
+    "houseNumber": "7",
+    "city": "Fredericton",
+    "province": "New Brunswick",
+    "postalCode": "E1A 1A1"
+  },
+  {
+    "street": "Spruce Avenue",
+    "houseNumber": "8",
+    "city": "St. John's",
+    "province": "Newfoundland and Labrador",
+    "postalCode": "A1A 1A1"
+  },
+  {
+    "street": "Willow Avenue",
+    "houseNumber": "9",
+    "city": "Halifax",
+    "province": "Nova Scotia",
+    "postalCode": "B1A 1A1"
+  },
+  {
+    "street": "Ash Avenue",
+    "houseNumber": "10",
+    "city": "Charlottetown",
+    "province": "Prince Edward Island",
+    "postalCode": "C1A 1A1"
+  },
+  {
+    "street": "Fir Avenue",
+    "houseNumber": "11",
+    "city": "Regina",
+    "province": "Saskatchewan",
+    "postalCode": "S1A 1A1"
+  },
+  {
+    "street": "Poplar Avenue",
+    "houseNumber": "12",
+    "city": "Yellowknife",
+    "province": "Northwest Territories",
+    "postalCode": "X1A 1A1"
+  },
+  {
+    "street": "Redwood Avenue",
+    "houseNumber": "13",
+    "city": "Whitehorse",
+    "province": "Yukon",
+    "postalCode": "Y1A 1A1"
+  },
+  {
+    "street": "Sequoia Avenue",
+    "houseNumber": "14",
+    "city": "Iqaluit",
+    "province": "Nunavut",
+    "postalCode": "X0A 0A0"
+  },
+  {
+    "street": "Cypress Avenue",
+    "houseNumber": "15",
+    "city": "Victoria",
+    "province": "British Columbia",
+    "postalCode": "V8W 1A1"
+  },
+  {
+    "street": "Chestnut Avenue",
+    "houseNumber": "16",
+    "city": "Saskatoon",
+    "province": "Saskatchewan",
+    "postalCode": "S7K 1A1"
+  },
+  {
+    "street": "Walnut Avenue",
+    "houseNumber": "17",
+    "city": "Quebec City",
+    "province": "Quebec",
+    "postalCode": "G1A 1A1"
+  },
+  {
+    "street": "Hickory Avenue",
+    "houseNumber": "18",
+    "city": "Hamilton",
+    "province": "Ontario",
+    "postalCode": "L8P 1A1"
+  },
+  {
+    "street": "Magnolia Avenue",
+    "houseNumber": "19",
+    "city": "Moncton",
+    "province": "New Brunswick",
+    "postalCode": "E1C 1A1"
+  },
+  {
+    "street": "Dogwood Avenue",
+    "houseNumber": "20",
+    "city": "Thunder Bay",
+    "province": "Ontario",
+    "postalCode": "P7A 1A1"
+  }
+]

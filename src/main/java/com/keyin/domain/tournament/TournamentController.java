@@ -36,4 +36,9 @@ public class TournamentController {
     public List<String> findAllMembersInTournament(@PathVariable Long tournamentId) {
         return tournamentService.findAllMembersInTournament(tournamentId);
     }
+
+    @PostMapping("/members/add-member/{tournamentId}/{memberId}")
+    public Tournament addMemberToTournament(@PathVariable Long tournamentId, @PathVariable Long memberId) {
+        return tournamentService.addMemberToTournament(tournamentId, memberId);
+    }
 }
