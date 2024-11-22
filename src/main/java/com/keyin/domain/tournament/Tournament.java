@@ -20,7 +20,7 @@ public class Tournament {
     @Column(name = "registered_members")
     private String registeredMembers;
 
-    // Getters and setters
+
     public Long getId() {
         return id;
     }
