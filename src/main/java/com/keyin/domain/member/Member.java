@@ -2,6 +2,7 @@ package com.keyin.domain.member;
 
 import jakarta.persistence.*;
 import java.time.LocalDate;
+import java.time.Period;
 
 @Entity
 public class Member {
@@ -66,6 +67,19 @@ public class Member {
     public void setMembershipDuration(int membershipDuration) {
         this.membershipDuration = membershipDuration;
     }
+
+//    public int getRemainingMonths() {
+//        LocalDate endDate = startDate.plusMonths(membershipDuration);
+//        LocalDate currentDate = LocalDate.now();
+//        if (currentDate.isAfter(endDate)) {
+//            return 0;
+//        }
+//        return Period.between(currentDate, endDate).getMonths();
+//    }
+//
+//    public String getRemainingMembershipMessage() {
+//        return name + " has " + getRemainingMonths() + " months left.";
+//    }
 
     public com.keyin.domain.memberaddress.MemberAddress getAddress() {
         return address;
