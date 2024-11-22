@@ -16,13 +16,24 @@ public class TournamentController {
     public List<Tournament> createTournaments(@RequestBody List<Tournament> tournaments) {
         return tournamentService.createTournaments(tournaments);
     }
-    @GetMapping("/search/StartDate")
-    public List<Tournament> searchTournamentsByStartDate(@RequestParam LocalDate startDate) {
+
+    @GetMapping
+    public List<Tournament> getAllTournaments() {
+        return tournamentService.getAllTournaments();
+    }
+
+    @GetMapping("/start-date/{startDate}")
+    public List<Tournament> searchTournamentsByStartDate(@PathVariable LocalDate startDate) {
         return tournamentService.searchTournamentsByStartDate(startDate);
     }
 
-    @GetMapping("/search/Location")
-    public List<Tournament> searchTournamentsByLocation(@RequestParam String city) {
+    @GetMapping("/by-city/{city}")
+    public List<Tournament> searchTournamentsByLocation(@PathVariable String city) {
         return tournamentService.searchTournamentsByLocation(city);
+    }
+
+    @GetMapping("/members/{tournamentId}")
+    public List<String> findAllMembersInTournament(@PathVariable Long tournamentId) {
+        return tournamentService.findAllMembersInTournament(tournamentId);
     }
 }
