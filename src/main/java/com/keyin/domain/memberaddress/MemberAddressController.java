@@ -28,6 +28,7 @@ public class MemberAddressController {
         return memberAddressService.findAllMemberAddresses();
     }
 
+
     @DeleteMapping("/{id}")
     public void deleteMemberAddress(@PathVariable Long id) {
         memberAddressService.deleteMemberAddress(id);

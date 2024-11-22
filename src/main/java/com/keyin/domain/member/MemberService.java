@@ -42,5 +42,9 @@ public class MemberService {
         return (List<Member>) memberRepository.findAll();
     }
 
+    public List<Member> findByMembershipDuration(int duration) {
+        return memberRepository.findByMembershipDuration(duration);
+    }
+
 
 }

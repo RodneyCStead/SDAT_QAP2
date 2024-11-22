@@ -33,6 +33,17 @@ public class MemberController {
         return memberService.findByStartDate(startDate);
     }
 
+//    to search up member ship type as i only set 6 or 12 month increments
+    @GetMapping("/membership-type/half-year")
+    public List<Member> getHalfYearMembers() {
+        return memberService.findByMembershipDuration(6);
+    }
+
+    @GetMapping("/membership-type/year")
+    public List<Member> getYearMembers() {
+        return memberService.findByMembershipDuration(12);
+    }
+
     @GetMapping
     public List<Member> getAllMembers() {
         return memberService.findAllMembers();
