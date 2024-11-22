@@ -2,7 +2,7 @@ package com.keyin.domain.member;
 
 import jakarta.persistence.*;
 import java.time.LocalDate;
-import java.time.Period;
+
 
 @Entity
 public class Member {
@@ -19,7 +19,7 @@ public class Member {
     @JoinColumn(name = "address_id", referencedColumnName = "id")
     private com.keyin.domain.memberaddress.MemberAddress address;
 
-    // Getters and setters
+
     public Long getId() {
         return id;
     }
