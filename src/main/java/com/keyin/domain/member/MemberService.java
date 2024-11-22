@@ -1,6 +1,5 @@
 package com.keyin.domain.member;
 
-
 import com.keyin.domain.memberaddress.MemberAddress;
 import com.keyin.domain.memberaddress.MemberAddressRepository;
 import org.springframework.beans.factory.annotation.Autowired;
