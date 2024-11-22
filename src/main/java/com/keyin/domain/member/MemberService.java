@@ -46,5 +46,9 @@ public class MemberService {
         return memberRepository.findByMembershipDuration(duration);
     }
 
+    public Member findById(Long id) {
+        return memberRepository.findById(id).orElse(null);
+    }
+
 
 }

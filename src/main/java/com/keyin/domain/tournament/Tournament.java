@@ -2,6 +2,7 @@ package com.keyin.domain.tournament;
 
 import jakarta.persistence.*;
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 public class Tournament {
@@ -17,8 +18,9 @@ public class Tournament {
     @JoinColumn(name = "location_id", referencedColumnName = "id")
     private com.keyin.domain.tournamentLocation.TournamentLocation location;
 
-    @Column(name = "registered_members")
-    private String registeredMembers;
+
+    @ElementCollection
+    private List<Long> registeredMembers;
 
 
     public Long getId() {
@@ -69,11 +71,11 @@ public class Tournament {
         this.location = location;
     }
 
-    public String getRegisteredMembers() {
+    public List<Long> getRegisteredMembers() {
         return registeredMembers;
     }
 
-    public void setRegisteredMembers(String registeredMembers) {
+    public void setRegisteredMembers(List<Long> registeredMembers) {
         this.registeredMembers = registeredMembers;
     }
 }
