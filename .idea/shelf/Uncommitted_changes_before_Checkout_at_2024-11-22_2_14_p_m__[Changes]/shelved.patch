@@ -1,0 +1,59 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"45846e9c-5564-460a-9105-d3a16f7b8694\" name=\"Changes\" comment=\"Added method to search up members by duration a.k.a their membership types (6 or 12 months)\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/keyin/domain/member/Member.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/keyin/domain/member/Member.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/Tournament.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/Tournament.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/application.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/application.properties\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;RodneyCStead&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/RodneyCStead/SDAT_QAP2.git&quot;,\r\n    &quot;accountId&quot;: &quot;185a2d91-7d0a-43bd-9455-83ce89ff7e2f&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 7\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2or9pPiwXBV1HGiLH8vU1sKMYrP\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Notification.DisplayName-DoNotAsk-Database detector&quot;: &quot;Database detector&quot;,\r\n    &quot;Notification.DoNotAsk-Database detector&quot;: &quot;true&quot;,\r\n    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,\r\n    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,\r\n    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,\r\n    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;Spring Boot.RestServiceApplication.executor&quot;: &quot;Run&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;TournamentLocation&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/School/Semester 4/SDAT/AttendanceReportGenerator&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"45846e9c-5564-460a-9105-d3a16f7b8694\" name=\"Changes\" comment=\"\" />\r\n      <created>1731617009745</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1731617009745</updated>\r\n      <workItem from=\"1731617010809\" duration=\"185000\" />\r\n      <workItem from=\"1731791487504\" duration=\"1174000\" />\r\n      <workItem from=\"1732245026037\" duration=\"3911000\" />\r\n      <workItem from=\"1732249362842\" duration=\"1755000\" />\r\n      <workItem from=\"1732292902002\" duration=\"2177000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"small change to tournament and member\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732222335500</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732222335500</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"added memberAddress service and controller, tests with postman to create addresses succesful\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732247727955</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732247727955</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"small change to tournament and member\" />\r\n    <MESSAGE value=\"added memberAddress service and controller, tests with postman to create addresses succesful\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"added memberAddress service and controller, tests with postman to create addresses succesful\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e800e9467237fde2faff62a131e915b671ee4363)
++++ b/.idea/workspace.xml	(date 1732297410528)
+@@ -4,11 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="45846e9c-5564-460a-9105-d3a16f7b8694" name="Changes" comment="Added method to search up members by duration a.k.a their membership types (6 or 12 months)">
++    <list default="true" id="45846e9c-5564-460a-9105-d3a16f7b8694" name="Changes" comment="Added the method to create the locations for the tournaments">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/domain/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/member/Member.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/domain/tournament/Tournament.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -95,7 +92,7 @@
+       <workItem from="1731791487504" duration="1174000" />
+       <workItem from="1732245026037" duration="3911000" />
+       <workItem from="1732249362842" duration="1755000" />
+-      <workItem from="1732292902002" duration="2177000" />
++      <workItem from="1732292902002" duration="3418000" />
+     </task>
+     <task id="LOCAL-00001" summary="small change to tournament and member">
+       <option name="closed" value="true" />
+@@ -113,7 +110,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1732247727955</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="Added the method to create the locations for the tournaments">
++      <option name="closed" value="true" />
++      <created>1732295580090</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1732295580090</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -122,6 +127,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="small change to tournament and member" />
+     <MESSAGE value="added memberAddress service and controller, tests with postman to create addresses succesful" />
+-    <option name="LAST_COMMIT_MESSAGE" value="added memberAddress service and controller, tests with postman to create addresses succesful" />
++    <MESSAGE value="Added the method to create the locations for the tournaments" />
++    <option name="LAST_COMMIT_MESSAGE" value="Added the method to create the locations for the tournaments" />
+   </component>
+ </project>
+\ No newline at end of file
