@@ -75,4 +75,4 @@ The system is built using Java, Spring Boot, and Maven.
         - Get all tournaments -> GET: http://localhost:8080/tournaments
         - Get tournament by location using the city-> GET: http://localhost:8080/tournaments/by-city/Toronto
         - Get all members in a tournament using the tournament id -> GET: http://localhost:8080/tournaments/members/1
-        
+        - adda new member to an existing tournament using tournament id and member id -> POST: http://localhost:8080/tournaments/add-member/1/9
